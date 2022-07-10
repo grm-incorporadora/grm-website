@@ -12,6 +12,8 @@
     "@styled-icons/boxicons-logos": "^10.38.0",
     "@styled-icons/boxicons-regular": "^10.38.0",
     "@styled-icons/remix-line": "^10.18.0",
+    "embla-carousel-autoplay": "^7.0.0-rc04",
+    "embla-carousel-react": "^7.0.0-rc04",
     "next": "^12.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
