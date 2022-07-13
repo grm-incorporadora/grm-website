@@ -63,7 +63,9 @@ const Project = ({
           <DataSheets
             dataSheets={project.dataSheets}
             name={project.name.name}
-            locale=""
+            locale={`${project.address ? `${project.address} - ` : ''}${
+              project.locale
+            }`}
           />
           {project.gallery && (
             <Gallery title="Galeria de fotos" images={project.gallery} />
