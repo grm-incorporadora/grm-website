@@ -1441,6 +1441,11 @@ embla-carousel-autoplay@^7.0.0-rc04:
   resolved "https://registry.npmjs.org/embla-carousel-autoplay/-/embla-carousel-autoplay-7.0.0-rc04.tgz"
   integrity sha512-+KibDbIUja/lHSx7xskRNPWTwvT17ap40cwrnr2D86FCb/tXptfJsjY5y/wlhSgdAwz1jaJ10BPG7wJPK+Gu3Q==
 
+embla-carousel-class-names@^7.0.0-rc04:
+  version "7.0.0-rc04"
+  resolved "https://registry.yarnpkg.com/embla-carousel-class-names/-/embla-carousel-class-names-7.0.0-rc04.tgz#245af7949d87d4347f5e7eb8b4b1555d8166c2d7"
+  integrity sha512-CBrHUf25cO5ZErx7aIVEDXDMdqeCsGhmo9WqjOXbAa+j5XfqsHlR5RACCy82h3cXYbfavgku7gt5ikShy+MI2w==
+
 embla-carousel-react@^7.0.0-rc04:
   version "7.0.0-rc04"
   resolved "https://registry.npmjs.org/embla-carousel-react/-/embla-carousel-react-7.0.0-rc04.tgz"
