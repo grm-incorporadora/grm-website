@@ -17,9 +17,17 @@ export const Gallery = ({ images, title }: GalleryProps) => {
     <section>
       <SubTitleCSS>{title}</SubTitleCSS>
 
-      <Carousel amountSlides={images!.length}>
-        {images!.map((image) => (
-          <CarouselItem key={image.id} id={image.id}>
+      <Carousel
+        amountSlides={images!.length}
+        aria-label={`slides das imagens: ${title}`}
+      >
+        {images!.map((image, i) => (
+          <CarouselItem
+            key={image.id}
+            id={image.id}
+            i={i}
+            amountSlides={images!.length}
+          >
             <CarouselBackground>
               <Image
                 src={image.url}
