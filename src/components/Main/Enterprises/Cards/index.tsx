@@ -49,6 +49,11 @@ export const Cards = ({ projects }: CardsProps) => {
                 image={project.image}
                 name={project.name}
                 size="small"
+                aria-label={
+                  `cartão de projeto ${page}` === 'in-progress'
+                    ? 'em andamento'
+                    : 'entregue'
+                }
               >
                 <ParagraphCSS
                   uppercase
